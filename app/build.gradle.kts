@@ -36,6 +36,10 @@ android {
 }
 
 dependencies {
+    val nav_version = "2.10.1"
+
+    // Jetpack Compose integration
+    implementation("androidx.navigation:navigation-compose:$nav_version")
 
     // Retrofit para consultar la API
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
