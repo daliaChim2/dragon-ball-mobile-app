@@ -52,7 +52,7 @@ fun SplashScreen(onStartClick: () -> Unit) {
         ),
         label = "float"
     )
-// Definir la fuente
+// Defini la fuente
     val PixelFont = FontFamily(
         Font(R.font.press_start_2p)
     )
