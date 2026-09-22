@@ -4,21 +4,17 @@ import androidx.compose.animation.core.*
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.scale
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
@@ -39,6 +35,7 @@ import androidx.compose.ui.text.font.FontFamily
  * On: 21/09/2026
  * All rights reserved: 2026
  */
+
 
 @Composable
 fun SplashScreen(onStartClick: () -> Unit) {
@@ -99,7 +96,7 @@ fun SplashScreen(onStartClick: () -> Unit) {
 
             //cambiar por el logo
             Image(
-                painter = painterResource(id = R.drawable.dragon_ball_4star),
+                painter = painterResource(id = R.drawable.dragon_ball_4star),//logo
                 contentDescription = "Esfera de 4 estrellas",
                 modifier = Modifier
                     .offset(y = floatOffset.dp)
