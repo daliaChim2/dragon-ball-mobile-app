@@ -44,6 +44,8 @@ dependencies {
 
 // Coil para cargar imágenes desde URLs
     implementation("io.coil-kt:coil-compose:2.6.0")
+// Navigation Compose (Navegación entre pantallas)
+    implementation("androidx.navigation:navigation-compose:2.7.7")
 
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
